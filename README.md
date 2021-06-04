@@ -1,8 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) to The [Elsys](https://www.elsys.com.br/) Dev-FrontEnd Challenge.
 
 ## Getting Started
+<i>I personally prefer to use the Yarn package manager.</i>
 
-First, run the development server:
+After clonning the repository, install the dependencies running in your terminal:
+```npm install
+# or
+yarn
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
