@@ -1,0 +1,17 @@
+.buttonPage {
+  border: none;
+  margin: .8rem;
+  margin-bottom: 1rem;
+
+  width: 2rem;
+  height: 2rem;
+  font-size: 12px;
+  border-radius: 50%;
+  background: var(--white);
+  color: var(--gray-300);
+}
+
+.buttonCurrent {
+  background: var(--navy);
+  color:  var(--white);
+}

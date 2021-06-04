@@ -1,0 +1,73 @@
+.cardContainer {
+  background: var(--white);
+  width: 20rem;
+  height: 7rem;
+  display: flex;
+
+  border-radius: 0px 4px 4px 0px;
+  margin: 1rem;
+  overflow: hidden;
+
+
+
+  @media (max-width: 720px)  {
+    width: 100%;
+    margin: .8rem .1rem;
+  }
+
+  transition: all .3s;
+  &:hover {
+    box-shadow: 5px 5px 10px -8px var(--gray-200);
+  }
+}
+
+.cardContent {
+  width: 100%;
+  margin: .8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+
+  h2 {
+    letter-spacing: .26px;
+    font: 600 .7rem Roboto;
+    text-transform: uppercase;
+  }
+}
+
+.textSubtitle {
+  font-size: .7rem;
+  color: var(--gray-300);
+  margin-bottom: .7rem;
+}
+
+.characterDatas {
+  display: flex;
+  justify-content: space-between;
+  
+  h3, span {
+    font: 400 .7rem Roboto;
+    color: var(--gray-300);
+  }
+
+  p {
+    font: 400 .7rem Roboto;
+    text-align: end;
+    color: var(--cyan);
+    margin-bottom: .1rem;
+  }
+}
+
+.cardImage {
+  width: 8rem;
+  height: 8rem;
+  color: var(--white);
+  background: var(--navy);
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+  }
+}

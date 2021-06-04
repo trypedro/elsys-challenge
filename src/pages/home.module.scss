@@ -1,0 +1,13 @@
+.contentContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1.8rem 1rem;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  @media (max-width: 720px) {
+    justify-content: center;
+  }
+}

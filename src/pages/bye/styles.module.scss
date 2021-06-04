@@ -1,0 +1,20 @@
+.containerFinalSession {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+  background: var(--navy);
+  color: var(--gray-100);
+
+}
+
+.textFinalSession {
+  margin-top: 5rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+
+  font: 300 2rem Roboto;
+}

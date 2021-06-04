@@ -1,0 +1,45 @@
+.headerContainer {
+  height: 13rem;
+  background: var(--navy);
+  color: var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconDiv {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.logoDiv {
+  
+  img {
+    width: 6rem;
+  }
+}
+
+.outDiv {
+
+  a {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font: 300 .8rem Roboto;
+
+    cursor: pointer;
+  }
+
+
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+}
