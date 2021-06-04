@@ -4,7 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <i>I personally prefer to use the Yarn package manager.</i>
 
 After clonning the repository, install the dependencies running in your terminal:
-```npm install
+```
+npm install
 # or
 yarn
 ```
